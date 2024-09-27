@@ -1,7 +1,9 @@
 public class Classwork
 {
   public static void main(String[] args);
-
+{
+  System.out.print(firstLastN("dictionary", 3))
+}
     public static String firstLastN(String word, int n)
     {
       //word = dictionary
