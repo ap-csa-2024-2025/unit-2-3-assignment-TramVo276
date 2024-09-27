@@ -1,7 +1,7 @@
 public class Classwork
 {
-  public static void main(String[] args)
-  
+  public static void main(String[] args);
+
     public static String firstLastN(String word, int n)
     {
       //word = dictionary
