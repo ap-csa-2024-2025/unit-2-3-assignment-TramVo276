@@ -1,8 +1,8 @@
 public class Classwork
 {
-  public static void main(String[] args);
+  public static void main(String[] args)
 {
-  System.out.print(firstLastN("dictionary", 3));
+  System.out.print(firstLastN("dictionary", 1));
 }
     public static String firstLastN(String word, int n)
     {
@@ -19,3 +19,24 @@ public class Classwork
     }
 
   }
+
+  
+
+  public static void main(String[]args)
+  {
+    System.out.println("library");
+  }
+  public static String delEnd(String s, int n)
+  {
+    int stoppingIndex = s.length() - n;
+    String output = s.substring(0, stoppingIndex);   //substring(start);
+    return output;
+  }
+
+
+    
+public static String compareLower(String s, int n)
+{
+  String first = "Sterling";
+  System.out.println(frist.compareTo("material"));
+}
